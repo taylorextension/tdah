@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface CtaButtonProps {
@@ -33,7 +32,7 @@ export const CtaButton: React.FC<CtaButtonProps> = ({ children, className, onCli
     <a
       href={targetHref}
       onClick={isExternal ? undefined : handleClick}
-      className={`block w-full text-center bg-green-500 text-white font-bold text-xl py-4 px-8 rounded-lg shadow-lg hover:bg-green-600 transition-all duration-300 ease-in-out transform hover:scale-105 ${className}`}
+      className={`block w-full text-center bg-green-500 text-white font-bold text-xl py-4 px-8 rounded-lg shadow-lg shadow-green-900/50 hover:bg-green-600 transition-all duration-300 ease-in-out transform hover:scale-105 ${className}`}
     >
       {children}
     </a>

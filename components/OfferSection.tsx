@@ -49,21 +49,21 @@ export const OfferSection: React.FC = () => {
                     <ListItem>Autoestima em alta</ListItem>
                 </ul>
 
-                 <h3 className="text-3xl font-extrabold text-slate-800 my-10">Depoimentos reais:</h3>
+                 <h3 className="text-3xl font-extrabold text-slate-800 my-10">O que nossas alunas dizem:</h3>
                  <div className="space-y-6">
                     <TestimonialCard 
-                        quote="Em 3 semanas já vi a barriga sumir e meu rosto afinar. Achei que era impossível emagrecer depois dos 40. Estava errada."
-                        author="Daniela"
+                        quote="Eu era a pessoa mais cética do mundo. Já tinha tentado de tudo depois dos 40 e nada funcionava. Em 3 semanas com o PPI, não só a barriga sumiu, como meu rosto afinou. Tive que admitir: isso aqui é diferente."
+                        author="Daniela P."
                         location="Juiz de Fora – MG"
                     />
                      <TestimonialCard 
-                        quote="Achava que era fraca por sentir fome o dia inteiro. Era só insulina desregulada. Hoje eu como de verdade, fico saciada, e ainda estou emagrecendo."
-                        author="Renata"
+                        quote="Minha rotina é uma loucura e eu sabia que não ia conseguir seguir 100%. Teve festa, teve viagem. E o mais incrível é que, mesmo não sendo perfeita, eu perdi medidas e a compulsão por doce diminuiu 80%. O PPI funciona na vida real."
+                        author="Renata S."
                         location="São Paulo – SP"
                     />
                      <TestimonialCard 
-                        quote="Não tenho mais compulsão no mercado. Antes, eu queria trazer o mundo. Agora eu passo pelas prateleiras de doce e nem sinto falta."
-                        author="Adriana"
+                        quote="A maior mudança pra mim foi no mercado. Eu entrava e parecia um zumbi, querendo levar tudo. Hoje, passo pelas prateleiras de porcarias e nem sinto vontade. É uma liberdade que eu não achei que fosse possível."
+                        author="Adriana V."
                         location="Fortaleza – CE"
                     />
                  </div>

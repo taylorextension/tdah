@@ -13,6 +13,11 @@ export const SolutionSection: React.FC = () => {
                 <p>“pra emagrecer, é só comer menos e se exercitar mais”...</p>
             </blockquote>
             <p className="text-lg text-slate-700 mb-6">Mas olha que loucura… Seguir essas regras é justamente o que trava o seu metabolismo.</p>
+            
+            <div className="my-10 p-6 bg-slate-100 rounded-lg">
+                <p className="text-xl text-slate-700">Enquanto te empurravam a pirâmide alimentar que adoece e engorda, a ciência descobria o segredo na pirâmide <span className="font-bold text-emerald-700">INVERTIDA</span>.</p>
+                <p className="mt-2 text-xl text-slate-700">E foi com base nessa ciência que nasceu o <span className="font-bold">PPI: Protocolo da Pirâmide Invertida</span>.</p>
+            </div>
 
             <div className="my-10">
                 <p className="text-lg text-slate-600">A barriga cresce. A fome aumenta. A energia some.</p>
@@ -44,12 +49,12 @@ export const SolutionSection: React.FC = () => {
             <div className="mt-12">
                 <h3 className="text-3xl font-bold text-slate-800 mb-6">Quando você aprende a regular isso, tudo muda.</h3>
                 <ul className="space-y-3 text-xl">
-                    <li className="flex items-start space-x-3"><CheckCircleIcon className="h-7 w-7 text-emerald-500 flex-shrink-0 mt-1" /><span>A fome some.</span></li>
-                    <li className="flex items-start space-x-3"><CheckCircleIcon className="h-7 w-7 text-emerald-500 flex-shrink-0 mt-1" /><span>Você se sente saciada com menos.</span></li>
-                    <li className="flex items-start space-x-3"><CheckCircleIcon className="h-7 w-7 text-emerald-500 flex-shrink-0 mt-1" /><span>A barriga desincha.</span></li>
-                    <li className="flex items-start space-x-3"><CheckCircleIcon className="h-7 w-7 text-emerald-500 flex-shrink-0 mt-1" /><span>A energia volta.</span></li>
-                    <li className="flex items-start space-x-3"><CheckCircleIcon className="h-7 w-7 text-emerald-500 flex-shrink-0 mt-1" /><span>Você para de pensar em comida o tempo inteiro.</span></li>
-                    <li className="flex items-start space-x-3"><CheckCircleIcon className="h-7 w-7 text-emerald-500 flex-shrink-0 mt-1" /><span>E começa a se olhar no espelho com orgulho.</span></li>
+                    <li className="flex items-start space-x-3"><CheckCircleIcon className="h-7 w-7 text-emerald-500 flex-shrink-0 mt-1" /><span>A fome que te assombrava o dia inteiro <span className="font-bold">simplesmente desaparece.</span></span></li>
+                    <li className="flex items-start space-x-3"><CheckCircleIcon className="h-7 w-7 text-emerald-500 flex-shrink-0 mt-1" /><span>Você come pratos deliciosos e se sente <span className="font-bold">satisfeita por horas.</span></span></li>
+                    <li className="flex items-start space-x-3"><CheckCircleIcon className="h-7 w-7 text-emerald-500 flex-shrink-0 mt-1" /><span>A barriga desincha e as roupas <span className="font-bold">começam a ficar folgadas.</span></span></li>
+                    <li className="flex items-start space-x-3"><CheckCircleIcon className="h-7 w-7 text-emerald-500 flex-shrink-0 mt-1" /><span>Sua energia se torna <span className="font-bold">estável e abundante</span>, do acordar ao deitar.</span></li>
+                    <li className="flex items-start space-x-3"><CheckCircleIcon className="h-7 w-7 text-emerald-500 flex-shrink-0 mt-1" /><span>Você para de pensar em comida o tempo inteiro e <span className="font-bold">retoma o controle.</span></span></li>
+                    <li className="flex items-start space-x-3"><CheckCircleIcon className="h-7 w-7 text-emerald-500 flex-shrink-0 mt-1" /><span>E começa a se olhar no espelho com <span className="font-bold">orgulho e admiração.</span></span></li>
                 </ul>
             </div>
         </div>

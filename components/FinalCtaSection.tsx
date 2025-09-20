@@ -18,8 +18,8 @@ export const FinalCtaSection: React.FC = () => {
                 <p className="text-lg text-slate-600 my-8">Clique abaixo e destrave o seu metabolismo com o PPI:</p>
 
                 <div className="max-w-md">
-                    <CtaButton href="https://pay.kiwify.com.br/duI4bxH">
-                        QUERO COMEÇAR
+                    <CtaButton href="https://pay.kiwify.com.br/duI4bxH" className="text-lg py-4 leading-tight">
+                        SIM, QUERO DESINCHAR E EMAGRECER COM O PPI
                     </CtaButton>
                 </div>
             </div>

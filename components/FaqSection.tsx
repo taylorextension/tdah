@@ -45,6 +45,9 @@ export const FaqSection: React.FC = () => {
                     <FAQItem question="Preciso cortar pão, arroz ou café pra sempre?">
                         <p>Não. O PPI te ensina a encaixar esses alimentos na sua rotina sem travar o emagrecimento. Você aprende o que comer, quando comer e em que ordem — sem terrorismo nutricional.</p>
                     </FAQItem>
+                    <FAQItem question="Isso funciona pra mim que já passei dos 40 e tenho metabolismo lento?">
+                        <p>Absolutamente. O PPI foi desenhado justamente para reativar um metabolismo que foi desacelerado por anos de dietas erradas e desinformação. Ao focar no controle da insulina, você está ajustando o "motor" do seu corpo, independentemente da sua idade ou "genética".</p>
+                    </FAQItem>
                      <FAQItem question="Funciona sem exercício?">
                         <p>Sim. A base do PPI é a alimentação para regular a insulina. O exercício é um bônus incrível para acelerar resultados e para a saúde, mas o método funciona mesmo para quem não pode ou não gosta de malhar.</p>
                     </FAQItem>

@@ -26,9 +26,15 @@ export const ProblemSection: React.FC = () => {
                 </ul>
                 <p className="text-2xl font-bold text-red-600 my-8 py-4 border-y-2 border-red-200">e no fim… nada funcionou por muito tempo.</p>
 
+                <div className="my-12 p-6 bg-red-50 border-l-4 border-red-400 rounded-r-lg">
+                    <h4 className="text-xl font-bold text-red-800">E se nada mudar?</h4>
+                    <p className="mt-2 text-slate-700 text-lg">Imagine daqui a um ano. As mesmas roupas apertadas no armário. A mesma frustração ao se olhar no espelho, evitando fotos. A energia cada vez mais baixa, te impedindo de brincar com seus filhos ou de ter disposição para seus projetos.</p>
+                    <p className="mt-2 text-slate-700 text-lg font-semibold">A verdade é que ignorar o problema só o torna maior.</p>
+                </div>
+
                 <div className="mt-8 text-lg text-slate-700 space-y-2">
-                    <p>Se isso soa familiar, <span className="font-bold">não é falta de esforço.</span></p>
-                    <p>É que te ensinaram tudo errado sobre como o corpo realmente queima gordura.</p>
+                    <p>Se isso soa familiar, <span className="font-bold">a culpa não é sua.</span> Não é falta de esforço ou força de vontade.</p>
+                    <p>É que te ensinaram a lutar a guerra errada. Te fizeram focar em calorias, quando o verdadeiro inimigo era outro.</p>
                 </div>
             </div>
         </section>
