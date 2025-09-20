@@ -1,5 +1,4 @@
 import React from 'react';
-import { CtaButton } from './CtaButton';
 
 const Step: React.FC<{ number: string; title: string; children: React.ReactNode }> = ({ number, title, children }) => (
     <div className="flex items-start space-x-4">
@@ -7,56 +6,46 @@ const Step: React.FC<{ number: string; title: string; children: React.ReactNode 
             {number}
         </div>
         <div>
-            <h4 className="text-2xl font-semibold leading-relaxed text-slate-900">{title}</h4>
-            <div className="space-y-3 text-xl leading-relaxed text-slate-700">{children}</div>
+            <h4 className="text-xl font-bold text-slate-800">{title}</h4>
+            <div className="mt-1 text-slate-600 text-lg space-y-3">{children}</div>
         </div>
     </div>
 );
 
 export const MethodSection: React.FC = () => {
     return (
-        <section id="o-metodo" className="bg-slate-50 px-6 py-12 md:py-16">
-            <div className="mx-auto max-w-2xl space-y-10">
-                <h3 className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900">Como Funciona o PPI?</h3>
-                <p className="text-xl leading-relaxed text-slate-700">Nada de contar calorias. Só <span className="font-semibold">3 regras simples</span> que funcionam na vida real.</p>
+        <section id="o-metodo" className="bg-slate-50 p-8 md:p-12">
+            <div className="max-w-2xl mx-auto">
+                <h3 className="text-3xl font-bold text-slate-800 mb-4">Como Funciona o PPI</h3>
+                <p className="text-xl text-slate-600 mb-10">Nada de contar caloria. Só 3 regras simples — que cabem na vida real.</p>
 
-                <div className="space-y-10">
-                    <Step number="1" title="Regra #1: Espere a fome de verdade">
-                        <p>Ao acordar, hidrate-se, movimente-se rápido e <span className="font-semibold">só coma quando a fome REAL aparecer.</span></p>
-                        <p>Não é sobre forçar jejum. É sobre respeitar o corpo.</p>
+                <div className="space-y-8">
+                    <Step number="1" title="Espere a fome de verdade">
+                        <p>Ao acordar, hidrate-se, movimente-se, e espere o sinal de fome real.</p>
+                        <p>Não precisa forçar jejum. Só não precisa comer sem estar com fome.</p>
                     </Step>
-                    <Step number="2" title="Regra #2: Monte o prato na ordem certa">
-                        <p className="font-semibold">Siga essa sequência:</p>
-                        <ol className="list-decimal list-inside space-y-1 pl-2 text-xl leading-relaxed text-slate-700 font-semibold">
+                    <Step number="2" title="Monte o prato na ordem certa">
+                        <p>A sequência que muda tudo:</p>
+                        <ol className="list-decimal list-inside space-y-1 font-semibold text-slate-700 pl-2">
                             <li>Proteína primeiro</li>
                             <li>Gordura natural em seguida</li>
                             <li>Vegetais depois</li>
                             <li>Carboidratos por último (se quiser)</li>
                         </ol>
-                        <p><span className="font-semibold">Exemplo prático:</span> 250g de frango + 1 colher de azeite + brócolis + 1/2 xícara de batata.</p>
-                        <p>Essa ordem suaviza os picos de insulina, aumenta a saciedade e reduz a compulsão.</p>
-                        <p className="text-base italic text-slate-500">Ver opções completas no guia (rola para a seção de oferta).</p>
+                        <p>Essa simples ordem suaviza o pico de insulina, aumenta a saciedade e reduz a compulsão.</p>
                     </Step>
-                    <Step number="3" title="Regra #3: Pare de beliscar entre refeições">
-                       <p>Cada mordida fora de hora dispara um novo sinal para guardar gordura.</p>
-                       <p>Dê espaço. O corpo responde — e rápido.</p>
+                    <Step number="3" title="Pare de beliscar entre as refeições">
+                       <p>Cada mordida fora de hora manda um novo sinal de armazenamento pro seu corpo.</p>
+                       <p>Quando você dá espaço, o corpo responde.</p>
+                       <p>Simples assim.</p>
                     </Step>
                 </div>
 
-                <div className="space-y-2">
-                    <p className="text-2xl font-semibold leading-relaxed text-emerald-700">Esse é o segredo.</p>
-                    <p className="text-xl leading-relaxed text-slate-700">Não é mágica. É biologia.</p>
-                </div>
-
-                <div className="max-w-md">
-                    <CtaButton href="https://pay.kiwify.com.br/duI4bxH" className="w-full text-lg py-4 leading-tight">
-                        SIM, QUERO DESINCHAR E EMAGRECER COM O PPI
-                    </CtaButton>
+                <div className="my-12">
+                    <p className="text-2xl font-bold text-emerald-700">Esse é o segredo.</p>
+                    <p className="text-xl text-slate-600 mt-1">Não é mágica. É biologia.</p>
                 </div>
             </div>
         </section>
     );
 };
-
-
-
