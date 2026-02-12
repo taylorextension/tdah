@@ -1,0 +1,163 @@
+{
+    "chapterTitle": "O Que É TDAH (De Verdade)?",
+    "sections": [
+        {
+            "title": null,
+            "content": [
+                {
+                    "type": "quote",
+                    "text": "\"Crianças com TDAH são crianças mais bem preparadas para a vida — só que não para a sala de aula.\""
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Alguém já te falou. Pode ter sido a professora, o pediatra, a sua sogra, ou você mesmo, de madrugada, num buraco de pesquisa no Google enquanto o resto da casa dormia. 'Será que meu filho tem TDAH?' E a partir daí, a cabeça não desliga mais."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Respira. Sério, respira antes de continuar. Esse capítulo foi escrito pra isso: pra te dar chão. Pra separar o que é ciência do que é pânico. Porque sobre TDAH, a gente encontra de tudo por aí, de receita milagrosa a diagnóstico de porta de escola."
+                },
+                {
+                    "type": "highlight",
+                    "text": "Primeira coisa: TDAH não é frescura. Não é falta de limite. E não, não é culpa sua."
+                }
+            ]
+        },
+        {
+            "title": "Afinal, o que é o TDAH?",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "TDAH é a sigla pra Transtorno do Déficit de Atenção com Hiperatividade. Um nome comprido pra algo que, no fundo, tem a ver com a química do cérebro, especificamente com a dopamina, o neurotransmissor responsável pela motivação e pelo prazer. Ninguém escolhe ter TDAH. Não é rebeldia, não é personalidade. É neurologia."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Pensa assim: a gente tem centros de recompensa no cérebro. São eles que fazem você levantar da cama, prestar atenção na conversa, sentir aquele alívio bom quando termina uma tarefa. Nas crianças com TDAH, esses centros funcionam num ritmo diferente. A dopamina não chega na quantidade certa, na hora certa. O sistema tá calibrado de outro jeito."
+                },
+                {
+                    "type": "callout",
+                    "title": "🧠 Por dentro do cérebro",
+                    "text": "Duas regiões mandam no jogo: o núcleo accumbens (que controla recompensa) e o córtex pré-frontal (que gerencia decisões e impulsos). Quando a comunicação entre elas falha, a criança não consegue filtrar estímulos, segurar impulsos ou manter o foco, mesmo querendo muito."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Sabe quando o seu filho fica três horas montando Lego sem piscar, mas não aguenta cinco minutos na lição de casa? Não é preguiça. O cérebro dele precisa de um certo nível de estímulo pra 'ligar'. Atividades monótonas, tipo copiar do quadro ou fazer conta, simplesmente não chegam nesse nível."
+                },
+                {
+                    "type": "highlight",
+                    "text": "O hiperfoco não descarta TDAH. Na verdade, é uma marca registrada do transtorno. A questão nunca foi 'falta de atenção'. É a dificuldade de escolher onde colocar essa atenção."
+                }
+            ]
+        },
+        {
+            "title": "A epidemia de diagnósticos",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Pois bem. O TDAH existe, é real, atinge cerca de 7,6% das crianças e adolescentes brasileiros. Dado do Ministério da Saúde, não de blog. Mas tem o outro lado dessa moeda: gente demais sendo diagnosticada sem critério. Laudos saindo em quinze minutos de consulta. Crianças de seis anos tomando medicação sem que ninguém tenha parado pra investigar de verdade."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "O paradoxo é esse: existe subdiagnóstico e sobrediagnóstico ao mesmo tempo. Meninos agitados recebem o rótulo rápido demais. Meninas quietas, que sonham acordadas no fundo da sala, passam anos invisíveis. Comportamentos absolutamente normais da infância (correr, se distrair, falar demais) viram sintoma na caneta do primeiro profissional apressado."
+                },
+                {
+                    "type": "callout",
+                    "title": "⚠️ Antes de aceitar qualquer diagnóstico, pergunte",
+                    "text": "Foi feita avaliação neuropsicológica completa? Os sintomas apareceram em mais de um ambiente? Descartaram ansiedade, problemas de sono, excesso de tela? Um diagnóstico dado às pressas pode causar tanto estrago quanto a falta dele."
+                }
+            ]
+        },
+        {
+            "title": "TDAH ou criança sendo criança?",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Toda criança se distrai. Toda. E toda criança tem dias de estar ligada no 220. Então como separar o que é infância do que é transtorno? Três palavras: intensidade, frequência, impacto."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Ela não consegue focar nem quando quer. Não estou falando de birra; é uma incapacidade real de sustentar a atenção",
+                        "Os sintomas se repetem em vários ambientes: casa, escola, casa do avô, festa de aniversário. Não é só num lugar",
+                        "O comportamento é desproporcional pra idade, não é agitação típica de quem tem sete anos",
+                        "Já dura pelo menos seis meses. Não apareceu na semana passada e vai sumir na próxima",
+                        "Existe prejuízo concreto, no aprendizado, nas amizades, na autoestima"
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "text": "E tem um detalhe que pega muita gente de surpresa: o TDAH tem várias caras. Tem a criança que parece um furacão, corre, grita, não senta. Mas tem a que fica ali, quieta, olhando pela janela com cara de quem tá em Marte. Essa segunda passa despercebida por anos. E quando alguém nota, já perdeu tempo demais."
+                }
+            ]
+        },
+        {
+            "title": "Os três tipos de TDAH",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "O TDAH não é um bloco único. Ele se apresenta em três formatos diferentes, e entender qual é o do seu filho muda tudo: da forma de lidar em casa ao tipo de acompanhamento profissional."
+                },
+                {
+                    "type": "callout",
+                    "title": "💨 Tipo Predominantemente Desatento",
+                    "text": "A criança calma demais. Vive no mundo da lua, esquece as coisas, perde material, não termina o que começa. Na escola, ela 'viaja': o corpo tá lá, a cabeça foi embora. É o tipo que mais escapa do radar porque não incomoda ninguém."
+                },
+                {
+                    "type": "callout",
+                    "title": "⚡ Tipo Predominantemente Hiperativo-Impulsivo",
+                    "text": "O oposto. Não para quieta, fala sem pensar, responde antes de ouvir a pergunta inteira, corta fila, interrompe conversa. É a que todo mundo vê, e a que recebe diagnóstico mais rápido porque, bom... dá trabalho."
+                },
+                {
+                    "type": "callout",
+                    "title": "🔄 Tipo Combinado",
+                    "text": "Mistura dos dois. Desatenção e agitação andando juntas. A maioria dos diagnósticos cai aqui. A criança alterna entre momentos de distração total e explosões de energia sem controle."
+                },
+                {
+                    "type": "highlight",
+                    "text": "Nenhum tipo é pior que o outro. Cada um traz desafios diferentes. O perigo tá em só reconhecer o hiperativo e ignorar o desatento, que sofre em silêncio."
+                }
+            ]
+        },
+        {
+            "title": "TDAH como instinto de sobrevivência",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Agora vem a parte que talvez mude sua forma de olhar pra isso tudo. Algumas correntes da neurociência evolutiva defendem que o TDAH não é um defeito. É uma herança. Um cérebro que, há milhares de anos, seria perfeito pra sobreviver na selva."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Raciocina comigo: atenção dispersa captava ameaças periféricas antes dos outros. Impulsividade garantia reações rápidas diante do perigo. Hiperatividade mantinha o corpo pronto pra correr ou lutar. O que hoje chamamos de 'sintomas' já foram vantagens evolutivas."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "O problema é que a gente tirou essa criança da floresta e colocou dentro de uma sala fechada, com trinta cadeiras iguais, exigindo que ela fique imóvel por quatro horas ouvindo alguém falar sobre substantivo. O ambiente mudou. O cérebro, não."
+                },
+                {
+                    "type": "highlight",
+                    "text": "Seu filho não tem um cérebro 'estragado'. Ele tem um cérebro poderoso demais pra um mundo que insiste em pedir que ele fique pequeno."
+                }
+            ]
+        },
+        {
+            "title": "Quando o ambiente pesa mais que a genética",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Aqui entra o que pouca gente fala, e que talvez seja o ponto mais libertador deste guia inteiro. Nem toda criança que apresenta sinais de TDAH tem TDAH de fato. Às vezes, o que parece transtorno é resposta. Resposta a um ambiente de medo."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Quando uma criança cresce num ambiente de insegurança (brigas constantes, cobrança excessiva, ausência emocional, instabilidade), o cérebro dela entra permanentemente em modo de defesa. O corpo fica em alerta. A atenção se dispersa porque está ocupada demais vigiando perigos. A agitação aparece porque a adrenalina não para de circular."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "E aí, de fora, parece TDAH. Mas é estresse crônico. É medo disfarçado de agitação. É tristeza travestida de desatenção. E medicar isso, sem tratar a raiz, é como tomar analgésico pra dor de dente cariado: o sintoma diminui, mas o buraco continua crescendo."
+                },
+                {
+                    "type": "highlight",
+                    "text": "Antes de olhar pro cérebro do seu filho, olhe pro ambiente em que ele vive. Muitas vezes, o que precisa de tratamento não é a criança, é o contexto ao redor dela."
+                }
+            ]
+        }
+    ]
+}

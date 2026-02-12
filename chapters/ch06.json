@@ -1,0 +1,131 @@
+{
+    "chapterTitle": "Medicação: Sim ou Não?",
+    "sections": [
+        {
+            "title": null,
+            "content": [
+                {
+                    "type": "quote",
+                    "text": "\"Aquilo que se constrói com hábito, com condicionamento, todos os dias, não se destrói com remédio. O remédio controla o circuito temporariamente; quando passa a ação, tudo volta.\""
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Esse é o capítulo mais polêmico do guia. De propósito. Porque quando o assunto é Ritalina, Venvanse, Concerta, as opiniões racham no meio. De um lado, médicos que prescrevem sem pestanejar. Do outro, pais que tremem só de pensar em 'drogar' o filho."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "A verdade, como quase sempre, não tá em nenhum dos dois extremos. Está no meio. E é lá que você precisa chegar, munido de informação honesta, não de medo ou de pressão."
+                },
+                {
+                    "type": "highlight",
+                    "text": "Não somos contra nem a favor de remédio. Somos a favor de informação boa. O objetivo aqui é te dar instrumentos pra decidir com consciência, junto com profissionais em quem você confia."
+                }
+            ]
+        },
+        {
+            "title": "Como os medicamentos funcionam",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Os remédios mais usados pra TDAH são estimulantes do sistema nervoso central: metilfenidato (Ritalina, Concerta) e lisdexanfetamina (Venvanse). O que eles fazem, de forma direta, é aumentar a quantidade de dopamina e noradrenalina disponível no cérebro."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Lembra que a dopamina é o combustível do foco? O remédio fornece esse combustível de fora. Um boost temporário. Enquanto tá ativo, a criança foca melhor, se distrai menos, fica mais tranquila, consegue acompanhar a aula. Quando o efeito passa (e ele passa), tudo volta como estava."
+                },
+                {
+                    "type": "callout",
+                    "title": "⚙️ Na prática",
+                    "text": "O medicamento age nos receptores de dopamina, aumentando a disponibilidade na fenda sináptica. Começa a fazer efeito em 30 a 60 minutos e dura entre 4 e 12 horas, dependendo da fórmula. Controla, não cura."
+                }
+            ]
+        },
+        {
+            "title": "O que o remédio faz — e o que NÃO faz",
+            "content": [
+                {
+                    "type": "list",
+                    "items": [
+                        "Melhora temporariamente: foco, atenção, controle de impulsos, concentração. Enquanto dura",
+                        "NÃO ensina. Não ensina a se organizar, regular emoções ou tolerar frustração",
+                        "NÃO resolve a causa. Se a origem tá no ambiente, nas emoções ou na dinâmica familiar, o remédio só disfarça",
+                        "NÃO substitui terapia. O trabalho comportamental e emocional continua sendo a base",
+                        "NÃO precisa ser pra sempre. Em muitos casos, dá pra reduzir ou tirar com acompanhamento"
+                    ]
+                },
+                {
+                    "type": "highlight",
+                    "text": "A pergunta certa não é 'devo dar remédio?'. É: 'meu filho tem um TDAH genuinamente neurológico que precisa de suporte farmacológico, ou os sintomas têm outras causas que podem ser tratadas antes?'"
+                }
+            ]
+        },
+        {
+            "title": "Efeitos colaterais que você precisa conhecer",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Todo remédio tem efeito colateral. Os de TDAH também. Conhecer esses efeitos não é pra criar pânico. É pra monitorar e saber a hora de falar com o médico."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Perda de apetite: o mais frequente. A criança simplesmente para de sentir fome enquanto o remédio age",
+                        "Dificuldade de dormir, principalmente se toma tarde ou em dose alta",
+                        "Dor de cabeça e de barriga, comum nos primeiros dias, tende a passar",
+                        "Irritabilidade ou agressividade. Pode acontecer quando a dose não tá certa ou quando aquele remédio específico não combina com a criança",
+                        "Mudança de humor. Algumas ficam mais apáticas, meio 'desligadas' emocionalmente",
+                        "Impacto no crescimento: em doses altas e uso prolongado, pode afetar"
+                    ]
+                },
+                {
+                    "type": "callout",
+                    "title": "🚨 Atenção",
+                    "text": "Seu filho começou a tomar e ficou mais agressivo? Mais apático? Parou de comer? Não tá dormindo? Fala com o médico já. Pode ser dose errada ou remédio inadequado. Não espera 'passar'."
+                }
+            ]
+        },
+        {
+            "title": "O perigo do diagnóstico apressado",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Um dos maiores problemas de hoje é a velocidade com que diagnósticos saem e receitas são assinadas. Consulta de quinze minutos. Ritalina na saída. Laudo baseado em relato superficial, sem avaliação neuropsicológica, sem olhar pro contexto emocional e familiar."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "A gente vive numa era de hiperestímulo. Crianças grudadas em telas desde os primeiros meses, bombardeadas por conteúdo rápido e viciante. O que isso faz no cérebro? Cria uma intoxicação dopaminérgica: o cérebro se acostuma com níveis altíssimos de estímulo. Aí quando essa criança vai pra sala de aula, onde o estímulo é baixo, ela não consegue prestar atenção. Parece TDAH. Mas é dependência de estímulo."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "E quando você medica uma criança que não tem TDAH (que tem, na verdade, um problema ambiental ou emocional), você tá tratando o sintoma errado. O problema não melhora. E os efeitos colaterais geram dano desnecessário."
+                },
+                {
+                    "type": "highlight",
+                    "text": "Antes de medicar, testa: tira as telas por duas a três semanas. Melhora o sono. Aumenta o reconhecimento. Observa o que muda. Se os sintomas caírem forte, o problema provavelmente não é TDAH. É o ambiente."
+                }
+            ]
+        },
+        {
+            "title": "Quando a medicação faz sentido",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Depois de tudo que foi dito, precisa ficar claro: tem caso em que o remédio é necessário. E faz uma diferença real. Quando o TDAH é genuinamente neurológico, quando a desregulação de dopamina é intensa, quando a criança sofre prejuízos sérios no aprendizado e nas relações, a medicação pode ser a ponte que permite que o resto funcione."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Pensa assim: se a criança tá tão desregulada que nem consegue absorver o benefício da terapia, do reconhecimento, das mudanças em casa, o remédio pode criar uma janela de funcionamento. Uma base mínima de foco e calma pra que todo o trabalho restante tenha onde se apoiar."
+                },
+                {
+                    "type": "callout",
+                    "title": "✅ A medicação faz sentido quando",
+                    "text": "O diagnóstico veio de profissional qualificado, com avaliação completa. Outras causas foram investigadas e descartadas. Abordagens sem remédio foram tentadas primeiro. Os sintomas causam prejuízo real e significativo. E os pais estão comprometidos com as mudanças ambientais e emocionais em paralelo."
+                },
+                {
+                    "type": "highlight",
+                    "text": "Se o médico é competente, se o diagnóstico foi criterioso, confia no processo. Medicação + mudanças ambientais + reconhecimento + acompanhamento = resultado. Nenhuma peça funciona sozinha."
+                }
+            ]
+        }
+    ]
+}

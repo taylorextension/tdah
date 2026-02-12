@@ -1,0 +1,150 @@
+{
+    "chapterTitle": "Ansiedade, Sono e Emoções",
+    "sections": [
+        {
+            "title": null,
+            "content": [
+                {
+                    "type": "quote",
+                    "text": "\"Você consegue prestar atenção em alguma coisa quando está estressada ou chateada? Então como esperar isso de uma criança que sente tudo com o dobro de intensidade?\""
+                },
+                {
+                    "type": "paragraph",
+                    "text": "O TDAH quase nunca vem sozinho. Na maioria das vezes, ele traz companhia: ansiedade, problemas de sono e desregulação emocional. E esses 'acompanhantes' muitas vezes machucam mais do que o próprio TDAH."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Esse capítulo trata do que não dá pra ver de fora. Das batalhas que acontecem dentro do seu filho: a angústia que ele não sabe nomear, a insônia que ninguém investiga, as explosões emocionais que todo mundo julga e ninguém entende."
+                },
+                {
+                    "type": "highlight",
+                    "text": "Se o TDAH é o problema visível, a ansiedade é o problema sentido. E é ela, muitas vezes, que está por trás da desatenção, da agitação e dos comportamentos que parecem desafiadores."
+                }
+            ]
+        },
+        {
+            "title": "TDAH e Ansiedade: a dupla que se alimenta",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Estima-se que até metade das crianças com TDAH também tenha transtorno de ansiedade. Não é coincidência. As duas condições compartilham circuitos cerebrais e se retroalimentam de um jeito perverso."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "A criança não consegue focar → vai mal na escola → os fracassos geram medo e insegurança → o medo dispara ansiedade → a ansiedade consome a atenção → a desatenção piora. Roda-viva. Se ninguém interrompe, o quadro se agrava sozinho."
+                },
+                {
+                    "type": "callout",
+                    "title": "😰 Sinais de ansiedade em crianças",
+                    "text": "Medo desproporcional de coisas cotidianas. Dor de barriga e de cabeça sem causa médica. Dificuldade de dormir sozinha. Medo da escola. Choro fácil. Preocupação constante com o que pode dar errado. Precisar ouvir 'eu te amo' repetidas vezes. Evitar situações sociais. Roer unha compulsivamente."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Muitas vezes, o que pai e mãe chamam de 'birra' é crise de ansiedade. A criança não tá sendo teimosa. Ela tá apavorada. E quando punimos ansiedade em vez de acolher, o medo só cresce."
+                }
+            ]
+        },
+        {
+            "title": "As três reações do corpo ao medo",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Quando o cérebro percebe uma ameaça (real ou inventada pela imaginação), ele aciona, automaticamente, um de três modos de defesa. A origem tá no sistema límbico, na amígdala. É completamente involuntário. A criança não escolhe reagir assim."
+                },
+                {
+                    "type": "callout",
+                    "title": "⚔️ Luta (Fight)",
+                    "text": "A criança fica agressiva, confrontadora, desobediente. Bate, grita, desafia. Parece rebelde, mas tá se defendendo de algo que sente como ameaça. A agressividade é o escudo."
+                },
+                {
+                    "type": "callout",
+                    "title": "🏃 Fuga (Flight)",
+                    "text": "A criança evita, se retrai, foge. Não quer ir pra escola, não quer prova, não quer conhecer gente nova. Parece preguiça ou antipatia, mas é proteção. Ela tá fugindo do que sente como perigo."
+                },
+                {
+                    "type": "callout",
+                    "title": "🧊 Paralisia (Freeze)",
+                    "text": "A criança trava, fica apática, 'desliga'. Parece desatenta, flutuando, ausente. Mas tá paralisada de medo: o corpo desligou como defesa. Esse modo é o que mais se confunde com TDAH desatento."
+                },
+                {
+                    "type": "highlight",
+                    "text": "Hiperatividade PODE SER o corpo tentando lutar ou fugir. Desatenção PODE SER o corpo em paralisia. Antes de rotular, investiga: do que o seu filho tem medo?"
+                }
+            ]
+        },
+        {
+            "title": "O sono: o pilar que ninguém investiga",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Se tem um fator capaz de transformar o quadro do seu filho de forma rápida, é o sono. Sono de qualidade restaura circuitos cerebrais, consolida memória, regula emoção e equilibra neurotransmissores. Sono ruim faz o inverso de tudo isso."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "E crianças com TDAH têm taxas muito mais altas de problemas de sono. Insônia, dificuldade de pegar no sono, sono agitado, despertar múltiplo, sonambulismo. Tudo mais frequente. E quanto pior o sono, piores os sintomas no dia seguinte."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "De 6 a 12 anos: 9 a 11 horas por noite. Adolescentes: 8 a 10",
+                        "Telas desligadas pelo menos uma hora antes de deitar. Luz azul bloqueia melatonina",
+                        "Rotina de sono consistente: mesmo horário, mesmo ritual, banho, leitura, conversa",
+                        "Quarto escuro, silencioso, fresco. O ambiente físico faz diferença",
+                        "Exercício físico durante o dia melhora a qualidade do sono à noite de forma drástica",
+                        "Se a insônia persistir mesmo com tudo isso, procure investigação médica. Pode ter causa tratável"
+                    ]
+                },
+                {
+                    "type": "callout",
+                    "title": "💤 Um dado concreto",
+                    "text": "Publicação no Journal of Developmental Pediatrics mostrou que crianças com TDAH que melhoraram a qualidade do sono apresentaram redução de até 40% nos sintomas de desatenção, sem nenhuma outra intervenção. Sono é, de longe, o remédio mais barato e mais eficaz que existe."
+                }
+            ]
+        },
+        {
+            "title": "Emoções: tudo no volume máximo",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Uma das características menos conhecidas do TDAH, e uma das que mais pesam, é a desregulação emocional. Crianças com TDAH sentem tudo mais forte. Alegria mais intensa, tristeza mais funda, raiva mais explosiva, frustração insuportável."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Acontece porque o córtex pré-frontal, que deveria filtrar e dosar as emoções, tá operando diferente. Sem esse filtro, cada emoção chega com o volume estourado. Sem nuance. Sem graduação. Tudo ou nada."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "É por isso que ele chora descontrolado por algo que parece bobagem. Ou explode de raiva por uma frustração que outra criança absorveria sem drama. Ele não tá encenando. Ele tá sentindo com uma intensidade que, talvez, você nem consiga imaginar."
+                },
+                {
+                    "type": "highlight",
+                    "text": "Nunca diga 'para de chorar', 'isso não é nada', 'você tá exagerando'. Pra ele, não é exagero. É real. Valida o que ele sente antes de tentar resolver: 'Eu sei que isso dói. Eu tô aqui com você.'"
+                }
+            ]
+        },
+        {
+            "title": "Estratégias pro dia a dia emocional",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Ajudar seu filho a lidar com o que sente é uma das coisas mais impactantes que você pode fazer por ele. Não é eliminar a emoção. É ensiná-lo a reconhecer, nomear e expressar de forma que não destrua, nem a ele, nem quem tá perto."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Nomeie a emoção em voz alta: 'Parece que você tá com raiva. É raiva que você tá sentindo?' Dar nome reduz a intensidade",
+                        "Ensine respiração lenta: inspira contando até 4, segura 4, solta em 4. Ativa o sistema parassimpático e acalma",
+                        "Crie um 'cantinho da calma'. Não como castigo, mas como refúgio. Um lugar onde ele possa ir quando estiver transbordando",
+                        "Use o toque: durante crise, às vezes um abraço silencioso faz mais que qualquer palavra",
+                        "Nunca tente resolver no meio da crise. Espera a onda baixar, depois conversa. Cérebro em crise está surdo",
+                        "Mostre como você lida com as suas emoções. Ele aprende regulação emocional observando como você se regula"
+                    ]
+                },
+                {
+                    "type": "highlight",
+                    "text": "Regulação emocional não se aprende sozinho. Se aprende vendo o outro fazer, sentindo como o outro acolhe. Você é o regulador emocional do seu filho, até que ele aprenda a ser o dele."
+                }
+            ]
+        }
+    ]
+}
