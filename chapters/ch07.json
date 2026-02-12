@@ -1,0 +1,154 @@
+{
+    "chapterTitle": "Suplementos e Alimentação",
+    "sections": [
+        {
+            "title": null,
+            "content": [
+                {
+                    "type": "quote",
+                    "text": "\"De repente, o seu filho não tem TDAH. De repente, ele tem um déficit alimentar, um déficit de nutrientes. Mas não os nutrientes que você está pensando: os nutrientes do ser.\""
+                },
+                {
+                    "type": "paragraph",
+                    "text": "A relação entre o que a criança come e como o cérebro dela funciona é uma das áreas mais estudadas das últimas duas décadas. E a ciência diz o mesmo, de forma consistente: o que entra no corpo afeta direto o que acontece lá em cima. Não como milagre, mas como peça de um quebra-cabeça maior."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Aqui a gente vai falar sobre o que prejudica, o que ajuda, quais suplementos têm respaldo científico e como fazer mudanças alimentares reais, sem transformar as refeições numa guerra."
+                }
+            ]
+        },
+        {
+            "title": "Alimentos que pioram os sintomas",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Antes de falar do que nutre, tem que falar do que sabota. Certas categorias de alimentos estão associadas à piora dos sintomas de TDAH, principalmente por efeito inflamatório e por mexerem com os neurotransmissores."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Açúcar refinado em excesso: causa picos e quedas bruscas de glicose. Resultado? Agitação seguida de irritabilidade e distração",
+                        "Corantes artificiais (amarelo tartrazina, vermelho 40, entre outros). Estudos na Europa levaram vários países a proibir ou exigir alerta em produtos com essas substâncias",
+                        "Ultraprocessados, cheios de aditivos, sódio e gordura trans. Promovem inflamação no cérebro",
+                        "Cafeína em excesso. Tá nos refrigerantes, no chocolate, em sucos industrializados. Piora ansiedade e prejudica o sono",
+                        "Glúten e caseína: em crianças com sensibilidade (não todas), podem causar inflamação que mexe com humor e atenção"
+                    ]
+                },
+                {
+                    "type": "callout",
+                    "title": "⚠️ Não é pra proibir tudo",
+                    "text": "A ideia não é criar uma dieta restritiva que gere mais estresse do que resolve. É ir reduzindo, aos poucos, o que inflama e desregula, e ir aumentando o que nutre. Mudança radical tende a não durar. Mudança gradual, sim."
+                }
+            ]
+        },
+        {
+            "title": "Nutrientes que o cérebro com TDAH precisa",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Assim como motor precisa do combustível certo, cérebro precisa de matéria-prima pra produzir neurotransmissores, manter conexões e regular emoções. Estes são os nutrientes com mais peso pra crianças com TDAH:"
+                },
+                {
+                    "type": "callout",
+                    "title": "🐟 Ômega-3 (DHA e EPA)",
+                    "text": "Provavelmente o suplemento mais estudado pro TDAH. O DHA compõe as membranas dos neurônios; o EPA tem ação anti-inflamatória. Pesquisas indicam melhora significativa em atenção e comportamento. Fontes: peixes de água fria (salmão, sardinha), linhaça, nozes. Suplementação: sob orientação médica, geralmente 500 a 1.000mg por dia de EPA+DHA."
+                },
+                {
+                    "type": "callout",
+                    "title": "🧲 Magnésio",
+                    "text": "Fundamental pra função nervosa e relaxamento muscular. Criança com TDAH frequentemente tem nível baixo. A falta dele tá ligada a agitação, insônia e irritabilidade. Fontes: folhas verde-escuras, cacau puro, semente de abóbora, banana."
+                },
+                {
+                    "type": "callout",
+                    "title": "⚡ Zinco",
+                    "text": "Participa direto na produção de dopamina, justamente o neurotransmissor desregulado no TDAH. Estudos indicam que suplementar pode potencializar o efeito da medicação e, em alguns casos, reduzir a dose necessária. Fontes: carne vermelha magra, feijão, castanhas."
+                },
+                {
+                    "type": "callout",
+                    "title": "🌞 Vitamina D",
+                    "text": "Participa da regulação de neurotransmissores. A deficiência é comum em crianças que passam muito tempo em ambientes fechados. Fonte principal: sol, de 15 a 20 minutos por dia de exposição moderada."
+                },
+                {
+                    "type": "callout",
+                    "title": "🧠 Ferro",
+                    "text": "Transporta oxigênio e participa da síntese de dopamina. Crianças com TDAH têm maior chance de apresentar ferritina baixa. Níveis adequados estão associados a melhora na atenção e no comportamento."
+                }
+            ]
+        },
+        {
+            "title": "O intestino: o segundo cérebro",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Descoberta dos últimos anos que virou muita coisa de cabeça pra baixo: o intestino produz cerca de 90% da serotonina do corpo e uma fatia considerável da dopamina. Existe uma via de comunicação constante entre intestino e cérebro, o chamado eixo intestino-cérebro. Quando esse eixo se desregula, o cérebro paga o preço."
+                },
+                {
+                    "type": "paragraph",
+                    "text": "Crianças que vivem de ultraprocessados acabam com uma microbiota intestinal empobrecida. E isso afeta produção de neurotransmissores, aumenta inflamação no corpo inteiro e pode agravar todos os sintomas do TDAH."
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Probióticos (iogurte natural, kefir, kombucha) ajudam a reconstruir a flora intestinal",
+                        "Fibras prebióticas (aveia, banana verde, alho, cebola) alimentam as bactérias boas que já moram ali",
+                        "Água em quantidade suficiente. Desidratação leve já prejudica cognição e humor",
+                        "Refeições regulares: pular refeição causa instabilidade de glicose que piora a atenção"
+                    ]
+                },
+                {
+                    "type": "highlight",
+                    "text": "Antes de correr pra suplementos, comece pelo básico: menos ultraprocessados, mais frutas e vegetais, água suficiente e horários regulares de refeição. Essas mudanças simples já costumam dar resultado visível em duas a três semanas."
+                }
+            ]
+        },
+        {
+            "title": "Suplementação: o que a ciência sustenta",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "Regra número um: nunca suplemente por conta própria. Sempre com neuropediatra ou nutricionista especializado. Dito isso, estes são os suplementos com melhor evidência pra TDAH:"
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Ômega-3 (EPA+DHA): evidência forte. Pode complementar a medicação ou, em casos leves, servir como alternativa",
+                        "Magnésio bisglicinato: boa absorção, ajuda no sono e na calma. Menos efeito colateral gastrointestinal",
+                        "Zinco: especialmente útil em crianças com níveis séricos abaixo do adequado",
+                        "Vitamina D3: se houver deficiência confirmada por exame de sangue",
+                        "Ferro (via ferritina): só se confirmada deficiência. Ferro em excesso faz mal",
+                        "Melatonina: pra problemas de sono, em doses baixas e por tempo limitado"
+                    ]
+                },
+                {
+                    "type": "callout",
+                    "title": "💊 Pra não esquecer",
+                    "text": "Suplemento não substitui comida de verdade. Ele complementa. Tapa buraco que a alimentação sozinha não dá conta de cobrir, ou atende demandas específicas do cérebro com TDAH."
+                }
+            ]
+        },
+        {
+            "title": "Montando um prato amigo do cérebro",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "text": "A mudança mais eficaz é também a mais simples: prato colorido e variado. Um prato que nutre o cérebro tem:"
+                },
+                {
+                    "type": "list",
+                    "items": [
+                        "Proteína de qualidade: ovos, frango, peixe, feijão. Fornece aminoácidos pra produzir neurotransmissores",
+                        "Gordura boa: azeite, abacate, castanhas, peixes. O cérebro é 60% gordura e depende de gorduras saudáveis pra funcionar",
+                        "Carboidrato complexo: arroz integral, batata-doce, aveia. Libera energia devagar, sem pico nem queda de glicose",
+                        "Vegetais e frutas: vitaminas, minerais, antioxidantes que protegem os neurônios",
+                        "Água. Desidratação leve, que muita criança tem sem saber, já compromete atenção e humor"
+                    ]
+                },
+                {
+                    "type": "highlight",
+                    "text": "Não tente mudar tudo de uma vez. Começa por uma refeição. Troca o suco de caixinha por água com limão. O salgadinho por castanha. O biscoito recheado por fruta com mel. Pouco a pouco, o resultado aparece."
+                }
+            ]
+        }
+    ]
+}
