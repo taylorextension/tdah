@@ -559,7 +559,7 @@ button {
   justify-content: center;
   padding: 0;
   overflow: hidden;
-  background: url('../images/cover-bg.jpeg') center center / cover no-repeat;
+  background: url('/images/cover-bg.jpeg') center center / cover no-repeat;
   background-color: #161619;
   /* Break out of .content padding */
   margin-left: calc(-50vw + 50%);
