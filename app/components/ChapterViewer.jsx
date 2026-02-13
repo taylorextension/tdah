@@ -13,10 +13,20 @@ export default function ChapterViewer({ chapterId, onPrev, onNext, onComplete, o
         const load = async () => {
             try {
                 const res = await fetch(`/chapters/ch${String(chapterId).padStart(2, '0')}.json`);
+
+                // Check if unauthorized or redirected to login
+                if (res.status === 401 || res.url.includes('/login')) {
+                    window.location.href = '/login';
+                    return;
+                }
+
+                if (!res.ok) throw new Error('Failed to load');
+
                 const json = await res.json();
                 setData(json);
             } catch (e) {
                 console.error(e);
+                // Optional: Show toast error "Erro ao carregar capítulo"
             } finally {
                 setLoading(false);
             }
