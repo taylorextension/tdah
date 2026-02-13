@@ -154,7 +154,7 @@ export default function ClientApp() {
                     {/* Reading Progress Bar */}
                     {view === 'chapter' && (
                         <div id="reading-progress" className="reading-progress">
-                            <div id="progress-fill" className="progress-fill" style={{ width: `${progress[chapter] || 0}%` }}></div>
+                            <div id="progress-fill" className="progress-fill"></div>
                         </div>
                     )}
 
