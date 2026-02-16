@@ -1,0 +1,38 @@
+0 verbose cli /opt/homebrew/Cellar/node/25.6.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.8.0
+2 info using node@v25.6.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/juniosilva/.openclaw/workspace/tdah/.npmrc
+5 silly config load:file:/Users/juniosilva/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/Users/juniosilva/.openclaw/workspace/tdah/.npm-cache/_logs/2026-02-16T00_52_01_150Z-
+10 verbose logfile /Users/juniosilva/.openclaw/workspace/tdah/.npm-cache/_logs/2026-02-16T00_52_01_150Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 verbose stack JSONParseError: Invalid package.json: JSONParseError: Expected double-quoted property name in JSON at position 375 (line 18 column 3) while parsing near "...t-dom\": \"19.2.3\",\n  }\n}\n"
+13 verbose stack     at parse (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/read-package.js:19:21)
+13 verbose stack     at PackageJson.fromJSON (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:162:22)
+13 verbose stack     at PackageJson.load (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:157:17)
+13 verbose stack     at async PackageJson.normalize (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:117:5)
+13 verbose stack     at async #initTree (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:272:34)
+13 verbose stack     at async Arborist.buildIdealTree (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:167:7)
+13 verbose stack     at async Promise.all (index 1)
+13 verbose stack     at async Arborist.reify (/opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:110:5)
+13 verbose stack     at async Install.exec (/opt/homebrew/lib/node_modules/npm/lib/commands/install.js:150:5)
+13 verbose stack     at async Npm.exec (/opt/homebrew/lib/node_modules/npm/lib/npm.js:208:9)
+14 error code EJSONPARSE
+15 error JSON.parse Invalid package.json: JSONParseError: Expected double-quoted property name in JSON at position 375 (line 18 column 3) while parsing near "...t-dom\": \"19.2.3\",\n  }\n}\n"
+16 error JSON.parse Failed to parse JSON data.
+16 error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+17 silly unfinished npm timer reify 1771203121397
+18 silly unfinished npm timer reify:loadTrees 1771203121397
+19 silly unfinished npm timer idealTree:init 1771203121397
+20 verbose cwd /Users/juniosilva/.openclaw/workspace/tdah
+21 verbose os Darwin 25.0.0
+22 verbose node v25.6.0
+23 verbose npm  v11.8.0
+24 verbose exit 1
+25 verbose code 1
+26 error A complete log of this run can be found in: /Users/juniosilva/.openclaw/workspace/tdah/.npm-cache/_logs/2026-02-16T00_52_01_150Z-debug-0.log

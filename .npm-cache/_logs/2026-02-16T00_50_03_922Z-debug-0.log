@@ -1,0 +1,18 @@
+0 verbose cli /opt/homebrew/Cellar/node/25.6.0/bin/node /opt/homebrew/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.8.0
+2 info using node@v25.6.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/juniosilva/.openclaw/workspace/tdah/.npmrc
+5 silly config load:file:/Users/juniosilva/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm exec next dev --hostname 0.0.0.0 --port 3000 --turbo=false
+8 verbose argv "exec" "--" "next" "dev" "--hostname" "0.0.0.0" "--port" "3000" "--turbo=false"
+9 verbose logfile logs-max:10 dir:/Users/juniosilva/.openclaw/workspace/tdah/.npm-cache/_logs/2026-02-16T00_50_03_922Z-
+10 verbose logfile /Users/juniosilva/.openclaw/workspace/tdah/.npm-cache/_logs/2026-02-16T00_50_03_922Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd /Users/juniosilva/.openclaw/workspace/tdah
+13 verbose os Darwin 25.0.0
+14 verbose node v25.6.0
+15 verbose npm  v11.8.0
+16 verbose exit 1
+17 verbose code 1
