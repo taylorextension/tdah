@@ -1,5 +1,5 @@
-import ClientApp from './components/ClientApp';
+import { redirect } from 'next/navigation';
 
 export default function Home() {
-  return <ClientApp />;
+  redirect('/login');
 }

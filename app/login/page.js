@@ -1,7 +1,6 @@
 'use client';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
 
 export default function LoginPage() {
     const [email, setEmail] = useState('');
@@ -22,8 +21,8 @@ export default function LoginPage() {
             });
 
             if (res.ok) {
-                // Success: Redirect to home
-                router.push('/');
+                // Success: Redirect to members dashboard
+                router.push('/dashboard');
             } else {
                 const data = await res.json();
                 setError(data.error || 'Erro ao realizar login. Verifique seu email.');
@@ -37,61 +36,67 @@ export default function LoginPage() {
 
     return (
         <div className="page page--login">
-            {/* Background (Same as Cover) */}
             <div className="cover-bg">
-                <div className="cover-gradient"></div>
-                {/* We can reuse the particles canvas here for consistency if requested, but let's keep it clean for login */}
-                <div style={{
-                    position: 'absolute',
-                    inset: 0,
-                    background: "url('/images/cover-bg.jpeg') center center / cover no-repeat",
-                    zIndex: -1
-                }}></div>
+                <div className="cover-gradient login-cover-gradient"></div>
+                <div className="login-cover-image" aria-hidden="true"></div>
+                <div className="login-ambient login-ambient--one" aria-hidden="true"></div>
+                <div className="login-ambient login-ambient--two" aria-hidden="true"></div>
             </div>
 
-            <div className="login-card">
-                <div className="login-logo" style={{ marginBottom: '1.5rem' }}>
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="1.5">
-                        <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"></path>
-                        <path d="M12 7v5l3 3"></path>
-                    </svg>
-                </div>
-
-                <h1 className="login-title">Área do Leitor</h1>
-                <p className="login-subtitle">Digite seu email de compra para acessar o guia.</p>
-
-                <form onSubmit={handleLogin}>
-                    <input
-                        type="email"
-                        className="login-input"
-                        placeholder="seu@email.com"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        required
-                        autoCapitalize="none"
-                        autoCorrect="off" // Disable autocorrect for easier email typing
-                        spellCheck="false"
-                        disabled={loading}
-                    />
-
-                    <button type="submit" className="login-btn" disabled={loading}>
-                        {loading ? (
-                            <>
-                                <svg className="spinner" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                    <circle className="opacity-25" cx="12" cy="12" r="10" strokeWidth="4"></circle>
-                                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                                </svg>
-                                Verificando...
-                            </>
-                        ) : 'Acessar Guia'}
-                    </button>
-                </form>
-
-                {error && (
-                    <div className="login-error fade-in">
-                        {error}
+            <div className="login-shell">
+                <section className="login-card" aria-label="Login do leitor">
+                    <div className="login-logo">
+                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="1.5">
+                            <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"></path>
+                            <path d="M12 7v5l3 3"></path>
+                        </svg>
                     </div>
-                )}
+
+                    <h1 className="login-title">Área de Membros</h1>
+                    <p className="login-subtitle">Faça login para acessar seus arquivos.</p>
+
+                    <form className="login-form" onSubmit={handleLogin} suppressHydrationWarning>
+                        <label className="login-label" htmlFor="email">Email de compra</label>
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            className="login-input"
+                            placeholder="seu@email.com"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            required
+                            autoComplete="email"
+                            inputMode="email"
+                            enterKeyHint="go"
+                            autoCapitalize="none"
+                            autoCorrect="off"
+                            spellCheck="false"
+                            disabled={loading}
+                            suppressHydrationWarning
+                        />
+
+                        <p className="login-hint">Use o mesmo email cadastrado no momento da compra.</p>
+
+                        <button type="submit" className="login-btn" disabled={loading}>
+                            {loading ? (
+                                <>
+                                    <svg className="spinner" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <circle cx="12" cy="12" r="10" strokeWidth="3"></circle>
+                                        <path d="M4 12a8 8 0 0 1 8-8" strokeWidth="3" strokeLinecap="round"></path>
+                                    </svg>
+                                    Verificando acesso...
+                                </>
+                            ) : 'Acessar Guia'}
+                        </button>
+                    </form>
+
+                    {error && (
+                        <div className="login-error" role="alert">
+                            {error}
+                        </div>
+                    )}
+                </section>
             </div>
         </div>
     );
