@@ -24,8 +24,7 @@ function parseRangeHeader(rangeHeader, totalSize) {
 }
 
 export async function GET(req) {
-  const token = req.cookies.get('tdah_session')?.value;
-  const session = await verifySessionToken(token);
+  const session = await verifySessionToken(req);
 
   if (!session) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
