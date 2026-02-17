@@ -1,16 +1,25 @@
-import { headers } from 'next/headers';
-import { redirect } from 'next/navigation';
+'use client';
 
-function isMobileUserAgent(userAgent) {
-  return /Android|iPhone|iPad|iPod|Mobile|webOS|BlackBerry|IEMobile|Opera Mini/i.test(userAgent || '');
-}
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
-export default async function EbookPage() {
-  const ua = (await headers()).get('user-agent') || '';
+export default function EbookPage() {
+  const router = useRouter();
 
-  if (isMobileUserAgent(ua)) {
-    redirect('/dashboard/ebook/fullscreen');
-  }
+  useEffect(() => {
+    const isMobile = window.matchMedia('(max-width: 900px)').matches;
 
-  redirect('/api/content/ebook');
+    if (isMobile) {
+      router.replace('/dashboard/ebook/fullscreen');
+      return;
+    }
+
+    window.location.replace('/api/content/ebook');
+  }, [router]);
+
+  return (
+    <main className="content-page">
+      <p className="content-subtitle">Carregando leitura...</p>
+    </main>
+  );
 }

@@ -1,14 +1,12 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { authFetch } from '@/lib/authFetch';
 
 const PDF_PAGE_KEY = 'tdah_pdf_page';
 
 export default function EbookFullscreenPage() {
-  const router = useRouter();
   const containerRef = useRef(null);
   const canvasRef = useRef(null);
   const renderTaskRef = useRef(null);
@@ -19,31 +17,11 @@ export default function EbookFullscreenPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [resizeTick, setResizeTick] = useState(0);
-  const [isMobile, setIsMobile] = useState(null);
 
   const canGoPrev = pageNumber > 1;
   const canGoNext = pageCount > 0 && pageNumber < pageCount;
 
   useEffect(() => {
-    function handleViewport() {
-      const mobile = window.matchMedia('(max-width: 900px)').matches;
-      setIsMobile(mobile);
-      if (!mobile) {
-        router.replace('/dashboard/ebook');
-      }
-    }
-
-    handleViewport();
-    window.addEventListener('resize', handleViewport);
-
-    return () => {
-      window.removeEventListener('resize', handleViewport);
-    };
-  }, [router]);
-
-  useEffect(() => {
-    if (isMobile !== true) return;
-
     let canceled = false;
 
     async function loadPdf() {
@@ -87,7 +65,7 @@ export default function EbookFullscreenPage() {
     return () => {
       canceled = true;
     };
-  }, [isMobile]);
+  }, []);
 
   useEffect(() => {
     return () => {
@@ -101,18 +79,16 @@ export default function EbookFullscreenPage() {
   }, [pdfDoc]);
 
   useEffect(() => {
-    if (isMobile !== true) return;
-
     function onResize() {
       setResizeTick((tick) => tick + 1);
     }
 
     window.addEventListener('resize', onResize);
     return () => window.removeEventListener('resize', onResize);
-  }, [isMobile]);
+  }, []);
 
   useEffect(() => {
-    if (isMobile !== true || !pdfDoc || !canvasRef.current || !containerRef.current) {
+    if (!pdfDoc || !canvasRef.current || !containerRef.current) {
       return;
     }
 
@@ -160,20 +136,12 @@ export default function EbookFullscreenPage() {
         renderTaskRef.current.cancel();
       }
     };
-  }, [isMobile, pdfDoc, pageNumber, resizeTick]);
+  }, [pdfDoc, pageNumber, resizeTick]);
 
   const progressLabel = useMemo(() => {
     if (!pageCount) return '--/--';
     return `${pageNumber}/${pageCount}`;
   }, [pageNumber, pageCount]);
-
-  if (isMobile !== true) {
-    return (
-      <main className="content-page">
-        <p className="content-subtitle">Carregando leitura...</p>
-      </main>
-    );
-  }
 
   return (
     <main className="pdf-fullscreen-page">
