@@ -1,9 +1,10 @@
 import { NextResponse } from 'next/server';
-import { supabase } from '@/lib/supabaseClient';
+import { getSupabaseClient } from '@/lib/supabaseClient';
 import { createSessionBundle, setSessionCookies } from '@/lib/sessionTokens';
 
 export async function POST(req) {
     try {
+        const supabase = getSupabaseClient();
         const { email } = await req.json();
 
         if (!email) {
