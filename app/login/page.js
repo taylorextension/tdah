@@ -45,13 +45,6 @@ export default function LoginPage() {
 
             <div className="login-shell">
                 <section className="login-card" aria-label="Login do leitor">
-                    <div className="login-logo">
-                        <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="1.5">
-                            <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"></path>
-                            <path d="M12 7v5l3 3"></path>
-                        </svg>
-                    </div>
-
                     <h1 className="login-title">Área de Membros</h1>
                     <p className="login-subtitle">Faça login para acessar seus arquivos.</p>
 

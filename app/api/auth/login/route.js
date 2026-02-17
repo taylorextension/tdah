@@ -1,8 +1,6 @@
 import { NextResponse } from 'next/server';
 import { supabase } from '@/lib/supabaseClient';
-import { SignJWT } from 'jose';
-
-const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET);
+import { createSessionBundle, setSessionCookies } from '@/lib/sessionTokens';
 
 export async function POST(req) {
     try {
@@ -31,32 +29,12 @@ export async function POST(req) {
             }, { status: 403 });
         }
 
-        // 2. Create Session Token (JWT)
-        const token = await new SignJWT({
-            userId: user.id,
-            email: user.email,
-            role: 'reader'
-        })
-            .setProtectedHeader({ alg: 'HS256' })
-            .setIssuedAt()
-            .setExpirationTime('30d') // 30 days login persistence
-            .sign(JWT_SECRET);
+        // 2. Create access + refresh session tokens.
+        const { accessToken, refreshToken } = await createSessionBundle(user);
 
-        // 3. Set Cookie
+        // 3. Set secure session cookies.
         const response = NextResponse.json({ success: true });
-
-        // Set httpOnly cookie for security
-        response.cookies.set({
-            name: 'tdah_session',
-            value: token,
-            httpOnly: true,
-            path: '/',
-            secure: process.env.NODE_ENV === 'production',
-            maxAge: 60 * 60 * 24 * 30, // 30 days
-            sameSite: 'lax',
-        });
-
-        return response;
+        return setSessionCookies(response, { accessToken, refreshToken });
 
     } catch (err) {
         console.error('Login Error:', err);

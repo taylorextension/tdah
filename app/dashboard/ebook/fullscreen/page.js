@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import { authFetch } from '@/lib/authFetch';
 
 const PDF_PAGE_KEY = 'tdah_pdf_page';
 
@@ -51,7 +52,12 @@ export default function EbookFullscreenPage() {
         const workerSrc = new URL('pdfjs-dist/legacy/build/pdf.worker.min.mjs', import.meta.url).toString();
         pdfjs.GlobalWorkerOptions.workerSrc = workerSrc;
 
-        const task = pdfjs.getDocument('/api/content/ebook');
+        const response = await authFetch('/api/content/ebook');
+        if (!response.ok) {
+          throw new Error('Unauthorized');
+        }
+        const data = await response.arrayBuffer();
+        const task = pdfjs.getDocument({ data });
         const doc = await task.promise;
 
         if (canceled) {
