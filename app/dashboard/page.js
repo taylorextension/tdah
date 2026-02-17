@@ -26,7 +26,7 @@ export default function DashboardPage() {
       <header className="members-header">
         <div className="members-header-top">
           <p className="members-kicker">Area de membros</p>
-          <Link href="/api/auth/logout" className="members-logout-btn" aria-label="Sair da conta">
+          <Link href="/api/auth/logout" prefetch={false} className="members-logout-btn" aria-label="Sair da conta">
             <svg viewBox="0 0 24 24" className="members-logout-icon" fill="none" stroke="currentColor" strokeWidth="1.8">
               <path d="M15 16l4-4-4-4" strokeLinecap="round" strokeLinejoin="round" />
               <path d="M9 12h10" strokeLinecap="round" />
@@ -58,7 +58,7 @@ export default function DashboardPage() {
               <h2 className="member-card-title">{item.title}</h2>
               <p className="member-card-description">{item.description}</p>
 
-              <Link href={item.href} className="member-card-cta">
+              <Link href={item.href} prefetch={false} className="member-card-cta">
                 {item.cta}
               </Link>
             </div>

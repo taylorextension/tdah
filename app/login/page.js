@@ -1,13 +1,10 @@
 'use client';
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
 
 export default function LoginPage() {
     const [email, setEmail] = useState('');
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
-    const router = useRouter();
-
     const handleLogin = async (e) => {
         e.preventDefault();
         setLoading(true);
@@ -16,13 +13,14 @@ export default function LoginPage() {
         try {
             const res = await fetch('/api/auth/login', {
                 method: 'POST',
+                credentials: 'include',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email }),
             });
 
             if (res.ok) {
-                // Success: Redirect to members dashboard
-                router.push('/dashboard');
+                // Force a full navigation so auth cookies are guaranteed before protected route checks.
+                window.location.assign('/dashboard');
             } else {
                 const data = await res.json();
                 setError(data.error || 'Erro ao realizar login. Verifique seu email.');
